@@ -14,7 +14,7 @@ func printNumbers() {
 
 func main() {
     go printNumbers()
-    time.Sleep(1 * time.Second) // Menunggu goroutine selesai
+    time.Sleep(1 * time.Second)
     fmt.Println("Selesai")
 }
 
